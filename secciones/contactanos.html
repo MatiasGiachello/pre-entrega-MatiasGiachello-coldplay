@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColdplayFans</title>
+    <link rel="icon" href="../recursos/coldplay logo.jpg" type="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https: //fonts.googleapis.com/css2? family= IM+Fell+Great+Primer+SC & display=swap"
+                rel="stylesheet">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+                <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <!-- encabezado -->
+    <header class="header">
+        <div class="header__img">
+            <a href="../index.html">
+                <img src="../recursos/coldplaylogo.png" alt="coldplay logo" class="img-logo">
+            </a>
+        </div>
+        <nav class="header__listaMenu">
+            <ul class="flex-container">
+                <a href="../index.html">
+                    <li class="header__listaMenu--Listas"><a href="../secciones/galeria.html">GALERIA</a></li>
+                    <li class="header__listaMenu--Listas"><a href="../secciones/recitales.html">RECITALES</a> </li>
+                    <li class="header__listaMenu--Listas"><a href="../secciones/contactanos.html"
+                            class="header__listaMenu--activo">CONTACTANOS</a></li>
+                    <li class="header__listaMenu--Listas"><a href="../secciones/quienes-somos.html">QUIENES SOMOS</a>
+                    </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- contenido principal -->
+    <main class="main-contactanos">
+        <form action="#" method="get">
+            <div class="main-formulario">
+                <h2 class="main-titulo">Contactanos:</h2>
+                <input class="main-input" type="text" placeholder="Nombre" name="Nombre">
+                <input class="main-input" type="text" placeholder="Apellido" name="Apellido">
+                <input class="main-input" type="text" placeholder="+549 (011) 43876412" name="Tel">
+                <input class="main-input" type="text" placeholder="jose@gmail.com" name="email">
+                <input class="main-input" type="text" placeholder="Preguntas/Aclaraciones">
+                <span class="main-span">Registrarse a ColdplayFans</span>
+                <select name="Newsletter">
+                    <option class="main-input" value="V">SI</option>
+                    <option class="main-input" value="F">NO</option>
+                </select>
+                <span class="main-span">Recibir Newsletter</span>
+                <input class="main-input" type="submit">
+            </div>
+        </form>
+    </main>
+    <!-- pie de pagina -->
+    <footer class="footer">
+
+        <div class="footer__lista">
+            <li class="wow animate__animated animate__fadeInLeft">
+                <a href="https://www.instagram.com/coldplay_fans1996/" target="_blank">
+                    <img class="logos-footer" src="../recursos/instagram-logo.png" alt="logo-instagram">
+                </a>
+            </li>
+            <li class="wow animate__animated animate__flipInY">
+                <a href="https://www.tiktok.com/" target="_blank">
+                    <img class="logos-footer" src="../recursos/tiktok-logo.png" alt="TIKTOK">
+                </a>
+            </li>
+            <li class="wow animate__animated animate__tada">
+                <a href="https://m.facebook.com/" target="_blank">
+                    <img class="logos-footer" src="../recursos/facebbok-logo.webp" alt="FACEBOOK">
+                </a>
+            </li>
+        </div>
+        <div class="footer-asistencia">
+            <li class="footer-li">
+                <a class="footer-a" href="#">Terminos y condiciones</a>
+                <a class="footer-a" href="#"> Politicas de cookis</a>
+                <a class="footer-a" href="#"> Ayuda</a>
+                <a class="footer-a" href="#">Preguntas Frecuentes</a>
+            </li>
+        </div>
+    </footer>
+</body>
+<script src="../js/wow.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</html>
