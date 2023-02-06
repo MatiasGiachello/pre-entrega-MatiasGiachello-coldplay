@@ -1,0 +1,42 @@
+
+.main-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../recursos/contactanos-img.webp);
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+    background-position: center;
+    margin: 12px;
+}
+
+.main-input {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.main-titulo {
+    color: white;
+}
+
+.main-span {
+    color: white;
+}
+
+.main-input:hover {
+    background-color: #bda7be;
+}
+
+.main-input:focus {
+    background-color: #f58cf9;
+    border-radius: 10px;
+    border: white solid 5px;
+    transition: 0.5s all;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}

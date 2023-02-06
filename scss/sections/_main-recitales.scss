@@ -1,0 +1,40 @@
+
+.titulos-recitales {
+    text-align: center;
+}
+
+.main-recitales {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 85px;
+    align-content: center;
+}
+
+.ticket {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.ticket:hover {
+    background-color: red;
+    border: white;
+}
+
+.dia-mes {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.estadio {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.lugar{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}

@@ -1,0 +1,49 @@
+
+.footer__lista {
+    padding: 1px;
+    background-color: black;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.footer {
+    background-color: black;
+    height: 50vh;
+}
+
+.footer-asistencia {
+    height: 200px;
+    width: 200px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-a {
+    display: flex;
+    color: white;
+    font-family: 'IM Fell Great Primer SC', serif;
+    text-decoration: none;
+}
+
+.logos-footer {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+.footer-li {
+    list-style: none;
+}
+
+.footer-a:hover {
+    background-color: rgb(106, 20, 79);
+    border-radius: 3px;
+}
