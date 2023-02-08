@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,900&display=swap');
+/*VARIABLES */
+@import './utilidades/colors';
+@import './utilidades/reset';
 
+/* SECCIONES */
 @import './sections/footer';
 @import './sections/header';
 @import './sections/main-contactanos';
@@ -8,5 +11,7 @@
 @import './sections/main-quienes-somos';
 @import './sections/main-recitales';
 @import './sections/nav';
+
+
 
 
