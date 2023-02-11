@@ -247,7 +247,8 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: stretch;
-  object-fit: cover; }
+  object-fit: cover;
+  text-align: justify; }
 
 .img-mainextra {
   display: inline-block;
