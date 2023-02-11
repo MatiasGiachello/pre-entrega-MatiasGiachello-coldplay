@@ -7,7 +7,7 @@
 }
 
 .main-extra {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cormorant Garamond', serif;
     display: flex;
     gap: 31px;
     width: 350px;
@@ -18,6 +18,7 @@
     align-items: stretch;
     object-fit: cover;
     text-align: justify;
+    color: black;
 
 }
 
@@ -80,4 +81,9 @@
     .header {
         background-color: #eea9f0;
     }
+}
+.titulo-index{
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    color: black;
 }
