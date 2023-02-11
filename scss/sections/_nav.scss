@@ -1,0 +1,21 @@
+.navbar {
+    display: none;
+
+
+@media screen and (min-width:100px) and (max-width: 1500px) {
+    display: block;
+
+    .navbar-b {
+        color: pink;
+        font-size: 10px;
+        width: 15vh;
+        text-align: center;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+    }
+}
+}
+.navbar-b{
+    color: violet;
+    
+}

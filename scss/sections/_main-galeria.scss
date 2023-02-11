@@ -17,6 +17,7 @@
     border-radius: 10px;
     height: 100%;
     object-fit: cover;
+    width: 100%;
 }
 
 .img-1 {
@@ -55,12 +56,9 @@
 .img-9 {
     grid-area: img-9;
 }
+
 body {
     background-color: violet;
-}
-
-img {
-    width: 100%;
 }
 
 .column {
@@ -89,4 +87,5 @@ img {
     padding-top: 15px;
 
 }
+
 
