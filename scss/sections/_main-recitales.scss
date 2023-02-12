@@ -1,4 +1,3 @@
-
 .titulos-recitales {
     text-align: center;
 }
@@ -35,6 +34,14 @@
 
 }
 
-.lugar{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+.lugar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.conteiner-recitales {
+    @media screen and (min-width:100px) and (max-width: 1500px) {
+        display: block;
+        padding: 5px;
+
+    }
 }
