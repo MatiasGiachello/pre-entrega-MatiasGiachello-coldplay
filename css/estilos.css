@@ -163,6 +163,13 @@ a {
   color: black;
   transform: scale(1.1); }
 
+.titulo-galeria {
+  display: flex;
+  text-align: center;
+  flex: content;
+  flex-direction: column;
+  color: white; }
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -334,8 +341,12 @@ body {
   display: flex;
   font-family: 'Domine', serif; }
 
-.titulos-recitales {
-  text-align: center; }
+.titulo-recitales {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: content;
+  color: white; }
 
 .main-recitales {
   display: flex;
@@ -364,6 +375,11 @@ body {
 
 .lugar {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+@media screen and (min-width: 100px) and (max-width: 1500px) {
+  .conteiner-recitales {
+    display: block;
+    padding: 5px; } }
 
 .navbar {
   display: none; }
