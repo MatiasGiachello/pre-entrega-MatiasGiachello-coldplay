@@ -1,11 +1,12 @@
-.titulo-galeria {
+
+
+.titulo-galeria{
     display: flex;
     text-align: center;
-    flex: content;
-    flex-direction: column;
+    flex:content;
+    flex-direction:column;
     color: white;
 }
-
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
